@@ -1,0 +1,15 @@
+services:
+  nginx-package-registry:
+#    image: nginx-package-registry
+    build:
+      context: .
+    ports:
+      - "8680:80"
+    volumes:
+      - packages:/var/packages
+    environment:
+      UPLOAD_USER: "uploader"
+      UPLOAD_PASS: "securepassword"
+
+volumes:
+  packages:
