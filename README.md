@@ -20,10 +20,7 @@ It is recommended to follow this pattern: `<package group>/<package name>/<file 
 packages/moodle/local_adlersetup/1.0.0.zip
 ```
 
-Filenames should be only the version number + file extension. No other characters are allowed.
-Releases should be uploaded with all relevant file names 
-- eg for release 1.0.0: 1.0.0, 1.0, 1, latest
-- eg for release 1.1.0-rc.1: 1.1.0-rc.1
+Filenames should be only the version number + file extension. No other characters are allowed. e.g. `1.0.0` or `1.1.0-rc.1`
 
 ## Example upload
 
